@@ -3,6 +3,7 @@ rm(list=ls());graphics.off()
 lapply(c("stats4","alabama"), require, character.only = TRUE)
 
 # Generate data -----------------------------------------------------------
+# y = rpois(n=16,lambda=6.8)
 y = c(5,7,7,4,4,8,15,7,7,4,7,3,8,5,4,7)
 N=length(y)
 
